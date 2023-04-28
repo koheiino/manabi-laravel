@@ -8,5 +8,9 @@
 </head>
 <body>
     <h1>User一覧</h1>
+    @foreach ($users as $user )
+        <a>{{$user->name}}</a>
+    @endforeach
+
 </body>
 </html>
